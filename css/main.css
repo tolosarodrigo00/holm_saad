@@ -1,0 +1,325 @@
+:root {
+	--primary-100:#8B5FBF;
+    --primary-200:#61398F;
+    --primary-300:#FFFFFF;
+    --accent-100:#D6C6E1;
+    --accent-200:#9A73B5;
+    --text-100:#4A4A4A;
+    --text-200:#878787;
+    --bg-100:#F5F3F7;
+    --bg-200:#E9E4ED;
+    --bg-300:#FFFFFF;
+      
+}
+body {
+	background: var(--bg-200);
+	font-family: 'Open Sans', sans-serif;
+}
+
+header .nav {
+	min-height: 80px;
+	overflow: hidden;
+	background: var(--bg-300);
+}
+
+header .logo h2,
+header .logo p {
+	font-size: 16px;
+	display: inline-block;
+}
+
+
+
+header .menu .c1 { background:var(--accent-200); }
+header .menu .c2 { background:var(--accent-200); }
+header .menu .c3 { background:var(--accent-200); }
+header .menu .c4 { background:var(--accent-200); }
+header .menu .c5 { background:var(--accent-200); }
+
+header .menu .c1:hover { background: var(--primary-100); }
+header .menu .c2:hover { background: var(--primary-100); }
+header .menu .c3:hover { background: var(--primary-100); }
+header .menu .c4:hover { background: var(--primary-100); }
+header .menu .c5:hover { background: var(--primary-100); }
+
+/* MAIN */
+/* Portafolio */
+.portafolio {
+	border-top: 3px solid var(--accent-100);
+	border-bottom: 3px solid var(--accent-100);
+	background: var(--bg-200);
+}
+
+.titulobueno1  {
+	color: var(--primary-200);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 30px;
+	gap: 2;
+}
+
+.titulobueno2  {
+	color: var(--primary-200);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 75px;
+	margin-bottom: 30px;
+	gap: 2;
+}
+.titulobueno3  {
+	color: var(--primary-200);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	margin-bottom: 30px;
+	gap: 2;
+}
+.portafolio .titulo {
+	color: var(--primary-200);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 30px;
+	gap: 2;
+}
+
+.portafolio .galeria .contenedor-imagen {
+	max-height: 180px;
+	overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+	background: #3da5e2;
+	display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+	opacity: .3;
+}
+
+/* Ventana Modal */
+.modal-dialog {
+	max-width: 1000px;
+}
+
+.acerca-de {
+	border-bottom: 3px solid var(--accent-100);
+	background: var(--bg-200);
+}
+
+/* Acerca de */
+.acerca-de .foto .nombre {
+	color:var(--primary-100);
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.acerca-de .info .titulo {
+	color: var(--primary-200);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 30px;
+	gap: 2;
+}
+
+.acerca-de .info .resumen {
+	letter-spacing: 2px;
+	font-size: 20px;
+	color:var(--text-100);
+}
+
+.acerca-de .info .label {
+	font-size: 18px;
+	font-weight: 600;
+	color:var(--accent-100);
+	margin-bottom: 10px;
+}
+
+.acerca-de .info .progress {
+	background: var(--accent-100);
+	border-radius: 0;
+	height: 25px;
+}
+
+.acerca-de .info .progress .progress-bar {
+	background: var(--bg-200);
+	line-height: 25px;
+	padding-left: 100px;
+}
+
+/*   MARCA  */
+
+.marca {	
+	border-bottom: 3px solid var(--accent-100);
+}
+.marca h1{	
+	color:var(--primary-200);
+}
+
+.marca h2{	
+	color:var(--primary-100);
+}
+
+.marca li{	
+	letter-spacing: 2px;
+	font-size: 16px;
+	color:var(--text-100);	
+}
+.card{
+	background: var(--bg-1000);
+}
+
+.servicio{
+	border-bottom: 3px solid var(--accent-100);
+	margin-bottom: 5rem;
+}
+.servicio h1{	
+	color:var(--primary-200);
+}
+
+
+.accordion-button{	
+	color : var(--primary-100);	   
+    font-weight: bold;
+	background-color: var(--accent-100);
+}
+.accordion-button:not(.collapsed){	
+	color :  var(--primary-100);	    
+    font-weight: bold;
+	background-color: var(--accent-100);
+}
+
+.accordion-body{
+	letter-spacing: 2px;
+	font-size: 16px;
+	color:var(--text-100);
+}
+
+
+/* Contacto */
+.contacto {
+	border-top: 1px solid var(--accent-100);
+	border-bottom: 1px solid var(--accent-100);
+}
+
+.contacto .titulo {
+	color:var(--bg-200);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
+	padding: 15px;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contacto .formulario textarea {
+	height: 150px;
+	min-height: 150px;
+	max-height: 250px;
+}
+
+.contacto .formulario .boton {
+	background: #3da5e2;
+	border: none;
+	padding: 7px 30px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+}
+
+.contacto .formulario .boton:hover {
+	background: #1BA0EF;
+}
+
+/* Footer */
+.redes-sociales {
+	padding: 40px 0;
+	margin-bottom: 40px;
+}
+
+.redes-sociales .icono {
+	width: 100px;
+	height: 100px;
+	color: #fff;
+	background: #cbcbcb;
+	display: inline-block;
+	margin: 0px 20px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+.redes-sociales .icono svg {
+	width: 40px;
+	height: 40px;
+}
+
+.redes-sociales .twitter {background: #1da1f2;}
+.redes-sociales .instagram {background: #833ab4;}
+.redes-sociales .facebook {background: #3b5998;}
+
+
+/* MEDIAQUERIES */
+/* Dispositivo sm */
+@media screen and (max-width: 576px){
+	.redes-sociales .icono {
+		width: 50px;
+		height: 50px;
+	}
+
+	.redes-sociales .icono svg {
+		width: 25px;
+		height: 25px;
+	}
+
+}
+
+/* Dispositivo md */
+@media screen and (max-width: 768px){
+	
+}
+
+/* Dispositivo lg  992px*/
+@media screen and (max-width: 1200px){
+	.logo {
+		height: 76px;
+	}
+
+	header .menu {
+		min-height: 76px;
+	}
+
+	header .menu a {
+		width: 100%;
+	}
+
+        .portafolio .galeria .contenedor-imagen:nth-child(1) {order: 1;}
+	.portafolio .galeria .contenedor-imagen:nth-child(2) {order: 3;}
+	.portafolio .galeria .contenedor-imagen:nth-child(3) {order: 6;}
+	.portafolio .galeria .contenedor-imagen:nth-child(4) {order: 2;}
+	.portafolio .galeria .contenedor-imagen:nth-child(5) {order: 5;}
+	.portafolio .galeria .contenedor-imagen:nth-child(6) {order: 4;}
+	.portafolio .galeria .contenedor-imagen:nth-child(7) {order: 7;}
+}
+
+/* Dispositivo xl */
+@media screen and (max-width: 1200px){
+
+}
+
+/* Dispositivo xxl */
+@media screen and (max-width: 1400px){}
+
+
